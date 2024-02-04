@@ -1,14 +1,13 @@
 //
-//  Poke_VerseTests.swift
-//  PokéVerseTests
+//  PokeVerseTests.swift
+//  PokeVerseTests
 //
-//  Created by Ndamu Nengovhela on 2024/02/03.
+//  Created by Ndamu Nengovhela on 2024/02/04.
 //
 
 import XCTest
-@testable import Poke_Verse
 
-final class Poke_VerseTests: XCTestCase {
+final class PokeVerseTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -28,7 +27,7 @@ final class Poke_VerseTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
