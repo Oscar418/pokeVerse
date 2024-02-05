@@ -18,6 +18,11 @@ final class Network {
             guard let data = data else {
                 if let error = error {
                     failure(error)
+                } else {
+                    let defaultError = NSError(domain: "",
+                                               code: 1,
+                                               userInfo: [NSLocalizedDescriptionKey: "Unknown error occurred"])
+                    failure(defaultError)
                 }
                 return
             }
