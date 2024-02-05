@@ -9,12 +9,11 @@ import SwiftUI
 
 protocol DetailViewModelType {
     func getDetails(pokemon: Pokemon)
-    func getImageUrl(pokemon: Pokemon) -> URL
     func formatNumber(value: Int) -> String
 }
 
 final class DetailViewModel: ObservableObject, DetailViewModelType {
-    private let pokeRepo: RestPokeRepository
+    private var pokeRepo: RestPokeRepository
     
     @Published var pokemonDetails: PokemonDetail?
     @Published var isLoading = false
@@ -46,13 +45,6 @@ final class DetailViewModel: ObservableObject, DetailViewModelType {
                 self.errorMessage = error
             }
         }
-    }
-    
-    func getImageUrl(pokemon: Pokemon) -> URL {
-        guard let downloadImageUrl = UrlBuilderUtil.buildUrl(scheme: .scheme,
-                                                             host: .imageHost,
-                                                             path: "\(PokeNetworkConstants.spritesPath.rawValue)\(LinkUtils.getLastPath(fromUrl: pokemon.url))\(ImageExtension.png.rawValue)") else { return URL(string: "")! }
-        return downloadImageUrl
     }
     
     func formatNumber(value: Int) -> String {

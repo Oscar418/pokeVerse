@@ -12,7 +12,7 @@ protocol PokeRepository {
     func getDetailedPokemon(id: Int, completion: @escaping (PokemonDetail) -> Void, failure: @escaping (String) -> Void)
 }
 
-final class RestPokeRepository: PokeRepository {
+class RestPokeRepository: PokeRepository {
     static let shared = RestPokeRepository()
     
     private let network: Network

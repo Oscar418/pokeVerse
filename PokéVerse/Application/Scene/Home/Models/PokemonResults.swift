@@ -9,6 +9,5 @@ import Foundation
 
 struct PokemonResults: Codable {
     let count: Int
-    let next: String
     let results: [Pokemon]
 }

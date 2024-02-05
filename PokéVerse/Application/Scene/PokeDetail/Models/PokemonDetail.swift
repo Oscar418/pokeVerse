@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PokemonDetail: Codable {
+struct PokemonDetail: Codable, Equatable {
     let id: Int
     let height: Int
     let weight: Int
@@ -15,16 +15,16 @@ struct PokemonDetail: Codable {
     let sprites: Sprite
 }
 
-struct PokeStat: Codable, Identifiable {
+struct PokeStat: Codable, Identifiable, Equatable {
     let id = UUID()
     let base_stat: Int
     let stat: Stat
 }
 
-struct Stat: Codable {
+struct Stat: Codable, Equatable {
     let name: String
 }
 
-struct Sprite: Codable {
+struct Sprite: Codable, Equatable {
     let front_shiny: String
 }

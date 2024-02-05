@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1FCC276F2B6E07DC00563259"
-               BuildableName = "Poke&#x301;Verse.app"
+               BuildableName = "PokiVerse.app"
                BlueprintName = "Poke&#x301;Verse"
                ReferencedContainer = "container:Poke&#x301;Verse.xcodeproj">
             </BuildableReference>
@@ -34,7 +34,7 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1FCC277F2B6E07DD00563259"
+               BlueprintIdentifier = "1F1C0BA02B6F9ECC0057E392"
                BuildableName = "Poke&#x301;VerseTests.xctest"
                BlueprintName = "Poke&#x301;VerseTests"
                ReferencedContainer = "container:Poke&#x301;Verse.xcodeproj">
@@ -56,9 +56,20 @@
             parallelizable = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1F4E1B232B6F975C00896886"
+               BlueprintIdentifier = "1F1C0B922B6F9D2F0057E392"
                BuildableName = "PokeVerseTests.xctest"
                BlueprintName = "PokeVerseTests"
+               ReferencedContainer = "container:Poke&#x301;Verse.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1F1C0BAD2B6FA0E40057E392"
+               BuildableName = "PokiVerseTests.xctest"
+               BlueprintName = "PokiVerseTests"
                ReferencedContainer = "container:Poke&#x301;Verse.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -79,7 +90,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FCC276F2B6E07DC00563259"
-            BuildableName = "Poke&#x301;Verse.app"
+            BuildableName = "PokiVerse.app"
             BlueprintName = "Poke&#x301;Verse"
             ReferencedContainer = "container:Poke&#x301;Verse.xcodeproj">
          </BuildableReference>
@@ -96,7 +107,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1FCC276F2B6E07DC00563259"
-            BuildableName = "Poke&#x301;Verse.app"
+            BuildableName = "PokiVerse.app"
             BlueprintName = "Poke&#x301;Verse"
             ReferencedContainer = "container:Poke&#x301;Verse.xcodeproj">
          </BuildableReference>
