@@ -35,6 +35,7 @@ final class PokiVerseTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    //test comment
     func testPokemonDetailInitialization() {
         let stat = Stat(name: "Ivysaur")
         let pokeStat = PokeStat(base_stat: 100, stat: stat)
